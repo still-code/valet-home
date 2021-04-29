@@ -19,7 +19,7 @@ I am lazy to remember all the projects in my `~/sites` and I like beautiful thin
 - if you want to customize the look, run `yarn && yarn run dev`
 - rename the file `.env.example` to `.env`
 - run `php artisan key:generate`
-- set your path in `config/home.php`
+- set your path and description in `config/home.php`
 - edit your valet config file `~/.config/valet/config.json`and add:
 ````
 "default": "/Users/Sally/Sites/foo",

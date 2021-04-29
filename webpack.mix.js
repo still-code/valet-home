@@ -19,3 +19,7 @@ mix.js('resources/js/app.js', 'public/js')
        processCssUrls: false
    })
    .copyDirectory('resources/fonts', 'public/fonts');
+
+if (mix.inProduction()) {
+    mix.version();
+}

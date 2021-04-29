@@ -48,7 +48,9 @@ module.exports = {
         },
     },
     variants: {
-        extend: {},
+        extend: {
+            backgroundImage: ['hover'],
+        },
     },
     plugins:  [],
 }
