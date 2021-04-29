@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bord {
+    border: solid 1px crimson;
+}
+
+@font-face {
+    font-family: 'flow-block';
+    src: local('flow'), url(../fonts/flow-block.woff) format('woff');
+}
+@font-face {
+    font-family: 'flow-circular';
+    src: local('flow'), url(../fonts/flow-circular.woff) format('woff');
+}
+@font-face {
+    font-family: 'flow-rounded';
+    src: local('flow'), url(../fonts/flow-rounded.woff) format('woff');
+}
