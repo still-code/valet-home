@@ -68,6 +68,13 @@ class HomeController extends Controller
                     }
                 }
 
+                if (is_dir($path . $item . '/wp-content')) {
+                    $items->type  = 'wordpress';
+                    $items->class = 'text-light-blue-800 bg-light-blue-100';
+
+                    return $items;
+                }
+
                 return $items;
             })
             ->values();
