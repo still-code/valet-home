@@ -1,0 +1,7 @@
+.showItem {
+    display: block !important;
+}
+
+.activeItem {
+    border: solid orangered 2px;
+}
