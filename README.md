@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/atm-code/valet-home/master/public/images/demo.png"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/atm-code/valet-home/master/public/images/demo.gif"></p>
 
 ## Valet Home Site
 
