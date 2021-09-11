@@ -50,7 +50,7 @@ class HomeController extends Controller
                 // done with composer, will check for packages.json
                 if (file_exists($itemPath . '/package.json')) {
                     $package = json_decode(file_get_contents($itemPath . '/package.json'), true, 512, JSON_THROW_ON_ERROR); //['keywords'][0];
-                    if (isset($package['dependencies']) && $package['dependencies']['react']) {
+                    if (isset($package['dependencies']) && isset($package['dependencies']['react'])) {
                         $items->type  = 'react';
                         $items->class = 'text-blue-800 bg-blue-100 dark:text-blue-100 dark:bg-blue-800';
                     } elseif (isset($package['keywords']) && $package['keywords'][0] !== null) {
